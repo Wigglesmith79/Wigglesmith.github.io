@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Form practice</title>
+</head>
+
+<body>
+    <form action="#" method="GET">
+        <fieldset>
+            <legend>Contact Detials</legend>
+
+            <label>Username:<br />
+                <input type="text" name="Username" maxlength="30" />
+            </label><br />
+            <label>Password:<br />
+                <input type="password" name="password" maxlength="30" />
+            </label><br />
+            <label>Email:<br />
+                <input type="email" name="Email" maxlength="30" />
+            </label>
+
+        </fieldset>
+
+
+        <!--select only one checkbox-->
+        <p>Please select your favorate genere:
+            <br />
+            <input type="radio" name="genere" value="fantasy" checked="checked" /> fantasy
+
+            <input type="radio" name="genere" value="sci-fi" /> sci-fi
+
+            <input type="radio" name="genere" value="Chinchilla" /> Chinchilla
+        </p>
+
+        <!--checkbox-->
+        <p>Select your favorate author(s):
+            <br />
+            <input id="JJR Tolken" type="checkbox" name="author" value="JJR Tolken" />
+            <label for="JJR Tolken">JJR Tolken</label>
+
+            <input type="checkbox" name="author" value="Orson Scott Card" /> Orson Scott Card
+
+            <input type="checkbox" name="author" value="N D Wilson" /> N D Wilson
+
+            <input type="checkbox" name="author" value="JK Rowling" /> JK Rowling
+
+        </p>
+
+        <!-- Select menu-->
+        <p>
+            Music Devices
+            <br />
+            <select name="devices">
+                <option value="phone">Phone</option>
+                <option value="tv">TV</option>
+                <option value="i-pad">IPad</option>
+                <option value="speakers">BTSpeakers</option>
+            </select>
+        </p>
+        <!--Drop Down Menu-->
+        <p>Do you play
+            <br />
+            <select name="instruments" size="3" multiple="multiple">
+                <option value="guitar">Guitar</option>
+                <option value="piano">Piano</option>
+                <option value="drums">Drums</option>
+                <option value="clarinet">Clarinet</option>
+                <option value="harp">Harp</option>
+            </select>
+        </p>
+
+        <p>Upload Your Song MP3:
+            <br />
+            <input type="file" name="user-song" />
+
+        </p>
+
+
+        <p>Write a Comment:</p>
+        <textarea name="comment" cols="20" rows="4" placeholder="Speak Friend and Enter">Speak Friend and Enter
+            </textarea>
+
+
+        <!-- Submit Button -->
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <form acton="#" method="post">
+        <!--file upload (Must Post Method)-->
+        <p>Upload Your Song MP3:
+            <input type="file" name="user-song" />
+
+        </p>
+        <input type="submit" value="Upload" />
+    </form>
+</body>
+
+</html>
