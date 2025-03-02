@@ -2,168 +2,241 @@
 <html>
 
 <head>
+
+
     <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="test.css">
+    <link href='https://fonts.googleapis.com/css?family=ADLaM Display' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Chivo Mono' rel='stylesheet'>
     <title>lab5</title>
     <style>
+        @import url("https://fonts.googleapis.com/css?family=Sofia");
+
+        body {
+            background-color: rgb(167, 167, 167);
+        }
+
+        header {
+            background-color: rgb(121, 0, 26);
+            width: 2000px;
+            height: fit-content;
+
+            padding: 5px;
+            border-radius: 5px;
+
+        }
+
+        h1 {
+            font-family: 'ADLaM Display';
+            color: rgb(255, 255, 255);
+            font-size: 50px;
+            font-weight: 500px;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
         td {
-            border: 1px solid blue;
 
+            background-color: rgb(223, 223, 223);
+            width: fit-content;
+
+            font-family: 'Chivo Mono';
+            font-size: 22px;
+            padding: 5px;
+            border-radius: 5px;
         }
 
-        table {
-            border: 2px solid black;
-        }
 
-        div {
-            background-color: lightblue;
+        section {
+            background-color: rgb(223, 223, 223);
             width: fit-content;
             padding: 8px;
+
+
+            font-family: 'Chivo Mono';
+            font-size: 22px;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+
+        table {
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        article {
+            font-family: 'ADLaM Display';
+            background-color: rgb(209, 209, 209);
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        td {
+
+            background-color: rgb(255, 255, 255);
+            width: fit-content;
+
+            font-family: 'Chivo Mono';
+            font-size: 22px;
         }
     </style>
 </head>
 
 <body>
-    <h1>My Life Schedule</h1>
-    <table>
-        <tr>
-            <th colspan="7">
-                <h2>Week Schedule Q1 2025</h2>
-            </th>
-        </tr>
-        <tr>
-            <th></th>
-            <th>6am</th>
-            <th>7am</th>
-            <th>8am</th>
-            <th>9am</th>
-            <th>10am</th>
-            <th>11am</th>
-            <th>12pm</th>
-            <th>1pm</th>
-            <th>2pm</th>
-            <th>3pm</th>
-        </tr>
-        <tr>
-            <th scope="col">Sunday:</th>
-            <td colspan="2"></td>
-            <td colspan="2">Wake up</td>
-            <td colspan="2">Church</td>
-            <td rowspan="2">Lunch</td>
-            <td colspan="3"></td>
+    <header>
+        <h1>My Life Schedule</h1>
+    </header>
+    <br />
+    <main>
+        <section>
+            <table>
+                <tr>
+                    <th colspan="7">
+                        <h2>Week Schedule Q1 2025</h2>
+                    </th>
+                </tr>
 
-        </tr>
-        <tr>
-            <th scope="col">Monday:</th>
+                <tr>
+                    <th></th>
+                    <th>6am</th>
+                    <th>7am</th>
+                    <th>8am</th>
+                    <th>9am</th>
+                    <th>10am</th>
+                    <th>11am</th>
+                    <th>12pm</th>
+                    <th>1pm</th>
+                    <th>2pm</th>
+                    <th>3pm</th>
+                </tr>
+                <tr>
+                    <th scope="col">Sunday:</th>
+                    <td colspan="2"></td>
+                    <td colspan="2">Wake up</td>
+                    <td colspan="2">Church</td>
+                    <td rowspan="2">Lunch</td>
+                    <td colspan="3"></td>
 
-            <td colspan="3"></td>
-            <td>Wake up</td>
-            <td colspan="3">WebDevClass</td>
-            <td colspan="3"></td>
-        </tr>
-        <tr>
-            <th scope="col">Tuesday:</th>
-            <td colspan="2">Wake up</td>
-            <td colspan="2">Intro To Game Design</td>
-            <td>Lunch</td>
-            <td colspan="2"></td>
-            <td colspan="2">English Comp</td>
-            <td></td>
-        </tr>
-        <tr>
-            <th scope="col">Wednesday</th>
-            <td colspan="3"></td>
-            <td>Wake up</td>
-            <td colspan="3">WebDevClass</td>
-            <td>Lunch</td>
-            <td></td>
-            <td>Board Game Club</td>
-        </tr>
-        <tr>
-            <th scope="col">Thursday</th>
-            <td colspan="2">Wake up</td>
-            <td colspan="2">Intro To Game Design</td>
-            <td>Lunch</td>
-            <td colspan="2"></td>
-            <td colspan="2">English Comp</td>
-            <td></td>
-        </tr>
-        <tr>
-            <th scope="col">Friday</th>
-            <td colspan="6"></td>
-            <td rowspan="2">Lunch</td>
-            <td colspan="4"></td>
-            <!--<td colspan="4"></td>-->
-        </tr>
-        <tr>
-            <th scope="col">Satureday</th>
-            <td colspan="2"></td>
-            <td colspan="2">wake up</td>
-            <td colspan="2"></td>
-            <td colspan="3"></td>
-            <!--<td colspan=""></td>-->
-        </tr>
-    </table>
-    <table>
-        <tr>
-            <th colspan="7">
-                <h2>Year Schedule 2025</h2>
-            </th>
-        </tr>
-        <tr>
-            <th></th>
-            <th>January</th>
-            <th>Febuary</th>
-            <th>March</th>
-            <th>April</th>
-            <th>May</th>
-            <th>June</th>
-            <th>July</th>
-            <th>Augest</th>
-            <th>September</th>
-            <th>October</th>
-            <th>November</th>
-            <th>December</th>
-        </tr>
-        <tr>
-            <th scope="col">Week1:</th>
-            <td colspan="4"></td>
-            <td>
-                <p>Finals,</p>
-                <p>Independence Day,</p>
-                <p>My Birthday</p>
-            </td>
+                </tr>
+                <tr>
+                    <th scope="col">Monday:</th>
 
-            <td colspan="8"></td>
-        </tr>
-        <tr>
-            <th scope="col">Week2:</th>
-            <td colspan="2"></td>
-            <td>Midterm</td>
-            <td colspan="5"></td>
-            <td>GF Birthday</td>
-            <td colspan="4"></td>
-        </tr>
-        <tr>
-            <th scope="col">Week3:</th>
-            <td></td>
-            <td>Valentines Day</td>
-            <td>Tax Day</td>
-            <td colspan="7"></td>
-            <td rowspan="3">
-                <p>Spiderheck Compeition,</p>
-                <p>Thanksgiving</p>
-            </td>
-            <td colspan="2"></td>
-        </tr>
-        <tr>
-            <th scope="col">Week4:</th>
+                    <td colspan="3"></td>
+                    <td>Wake up</td>
+                    <td colspan="3">WebDevClass</td>
+                    <td colspan="3"></td>
+                </tr>
+                <tr>
+                    <th scope="col">Tuesday:</th>
+                    <td colspan="2">Wake up</td>
+                    <td colspan="2">Intro To Game Design</td>
+                    <td>Lunch</td>
+                    <td colspan="2"></td>
+                    <td colspan="2">English Comp</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="col">Wednesday</th>
+                    <td colspan="3"></td>
+                    <td>Wake up</td>
+                    <td colspan="3">WebDevClass</td>
+                    <td>Lunch</td>
+                    <td></td>
+                    <td>Board Game Club</td>
+                </tr>
+                <tr>
+                    <th scope="col">Thursday</th>
+                    <td colspan="2">Wake up</td>
+                    <td colspan="2">Intro To Game Design</td>
+                    <td>Lunch</td>
+                    <td colspan="2"></td>
+                    <td colspan="2">English Comp</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="col">Friday</th>
+                    <td colspan="6"></td>
+                    <td rowspan="2">Lunch</td>
+                    <td colspan="4"></td>
+                    <!--<td colspan="4"></td>-->
+                </tr>
+                <tr>
+                    <th scope="col">Satureday</th>
+                    <td colspan="2"></td>
+                    <td colspan="2">wake up</td>
+                    <td colspan="2"></td>
+                    <td colspan="3"></td>
+                    <!--<td colspan=""></td>-->
+                </tr>
+            </table>
+        </section>
+        <br />
+        <section>
 
-            <td colspan="9"></td>
-            <td>Halloween</td>
-            <td>Christmas</td>
+            <table>
+                <tr>
+                    <th colspan="7">
+                        <h2>Year Schedule 2025</h2>
+                    </th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>January</th>
+                    <th>Febuary</th>
+                    <th>March</th>
+                    <th>April</th>
+                    <th>May</th>
+                    <th>June</th>
+                    <th>July</th>
+                    <th>Augest</th>
+                    <th>September</th>
+                    <th>October</th>
+                    <th>November</th>
+                    <th>December</th>
+                </tr>
+                <tr>
+                    <th scope="col">Week1:</th>
+                    <td colspan="4"></td>
+                    <td>
+                        <p>Finals,</p>
+                        <p>Independence Day,</p>
+                        <p>My Birthday</p>
+                    </td>
 
-        </tr>
-    </table>
+                    <td colspan="8"></td>
+                </tr>
+                <tr>
+                    <th scope="col">Week2:</th>
+                    <td colspan="2"></td>
+                    <td>Midterm</td>
+                    <td colspan="5"></td>
+                    <td>GF Birthday</td>
+                    <td colspan="4"></td>
+                </tr>
+                <tr>
+                    <th scope="col">Week3:</th>
+                    <td></td>
+                    <td>Valentines Day</td>
+                    <td>Tax Day</td>
+                    <td colspan="7"></td>
+                    <td rowspan="3">
+                        <p>Spiderheck Compeition,</p>
+                        <p>Thanksgiving</p>
+                    </td>
+                    <td colspan="2"></td>
+                </tr>
+                <tr>
+                    <th scope="col">Week4:</th>
+
+                    <td colspan="9"></td>
+                    <td>Halloween</td>
+                    <td>Christmas</td>
+
+                </tr>
+            </table>
+        </section>
+    </main>
 </body>
 
 </html>
