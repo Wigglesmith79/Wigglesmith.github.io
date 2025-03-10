@@ -9,68 +9,87 @@
 </head>
 
 <body>
-    <p>This is my real contact info, I needed this to hide from the Chinchillas.</p>
-    <p>I made a fake one to throw them off my tracks.</p>
-
+    <article>
+        <p>This is my real contact info, I needed this to hide from the Chinchillas.</p>
+        <p>I made a fake one to throw them off my tracks.</p>
+    </article>
     <form action="#" method="GET">
+        <header>
+            <h1>
+                <legend>Contact Detials</legend>
+            </h1>
+        </header>
 
-        <legend>Contact Detials</legend>
-
-        <label>Name:<br />
-            <input type="text" name="Name" maxlength="30" />
-        </label><br />
-        <label>Email:<br />
-            <input type="email" name="Email" maxlength="30" />
-        </label><br />
+        <section>
+            <label>Name:<br />
+                <input type="text" name="Name" maxlength="30" />
+            </label><br />
+            <label>Email:<br />
+                <input type="email" name="Email" maxlength="30" />
+            </label><br />
+        </section>
         <hr />
-        <label>What you need:
-            <select name="Subject">
-                <option value="General-Inquiry">General Inquiry</option>
-                <option value="Pest-Control">Pest Control</option>
-                <option value="Free-Hugs">Free Hugs</option>
-            </select>
-        </label>
+        <section>
+            <label>What you need:
+                <select name="Subject">
+                    <option value="General-Inquiry">General Inquiry</option>
+                    <option value="Pest-Control">Pest Control</option>
+                    <option value="Free-Hugs">Free Hugs</option>
+                </select>
+            </label>
+        </section>
         <br />
-        <label>Your Message:
-            <br />
-            <textarea name="comment" cols="30" rows="4" placeholder="Write-message">Write message</textarea>
-        </label>
+        <section>
+            <label>Your Message:
+                <br />
+                <textarea name="comment" cols="30" rows="4" placeholder="Write-message">Write message</textarea>
+            </label>
+        </section>
         <br />
-        <input type="submit" value="Submit">
-        <input type="reset" value="Reset">
+        <section>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </section>
         <hr />
         <br />
-        <label>How did you find my portfolio?
-            <select name="options">
-                <option value="google-search">Google Search</option>
-                <option value="secret-organization">Secret Organization</option>
-                <option value="finish-farmers-market">Finish Farmers Market</option>
-                <option value="facebook">Facebook</option>
-            </select>
-        </label>
+        <section>
+            <label>How did you find my portfolio?
+                <select name="options">
+                    <option value="google-search">Google Search</option>
+                    <option value="secret-organization">Secret Organization</option>
+                    <option value="finish-farmers-market">Finish Farmers Market</option>
+                    <option value="facebook">Facebook</option>
+                </select>
+            </label>
+        </section>
         <br />
-        <p>How was the websight expierience?
-            <br />
-            <input type="radio" name="review" value=":d" checked="checked" />
-            :D
-            <input type="radio" name="review" value=":]" />
-            :]
-            <input type="radio" name="review" value=":l" />
-            :l
-            <input type="radio" name="review" value="x[" />
-            :P
-        </p>
+        <section>
+            <p>How was the websight expierience?
+                <br />
+                <input type="radio" name="review" value=":d" checked="checked" />
+                :D
+                <input type="radio" name="review" value=":]" />
+                :]
+                <input type="radio" name="review" value=":l" />
+                :l
+                <input type="radio" name="review" value="x[" />
+                :P
+            </p>
+        </section>
         <br />
-        <p>Other feedback:
-            <br />
-            <textarea name="comments" cols="30" rows="4">Your feedback</textarea>
+        <section>
+            <p>Other feedback:
+                <br />
+                <textarea name="comments" cols="30" rows="4">Your feedback</textarea>
 
-        </p>
-        <input type="submit" value="Submit">
-        <input type="reset" value="Reset">
-
+            </p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </section>
 
     </form>
+
+    <a href="index.html"><button style="font-size: 20px;">Return</button></a>
 </body>
 
 </html>
