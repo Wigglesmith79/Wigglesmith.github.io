@@ -1,11 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <title>MyWeeklySchedule</title>
+    <style>
+        td {
+            border: 1px solid blue;
+
+        }
+
+        table {
+            border: 2px solid black;
+        }
+
+        div {
+            background-color: lightblue;
+            width: fit-content;
+            padding: 8px;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <h2>My weekly Schedule</h2>
+    <table>
+        <tr>
+            <th></th>
+            <th>8am</th>
+            <th>9am</th>
+            <th>10am</th>
+            <th>11am</th>
+            <th>12pm</th>
+            <th>1pm</th>
+        </tr>
+        <tr>
+            <th scope="col">Monday:</th>
+            <td></td>
+            <td></td>
+            <td colspan="3">Intro To Web Dev</td>
+            <td>Lunch</td>
+        </tr>
+        <tr>
+            <th scope="col">Tuesday:</th>
+            <td colspan="2">Intro To Game Design</td>
+            <td>Lunch</td>
+            <td></td>
+            <td></td>
+            <td colspan="2">English Comp</td>
+        </tr>
+        <tr>
+            <th scope="col">Wednesday</th>
+            <td></td>
+            <td></td>
+            <td colspan="3">Intro To Web Dev</td>
+            <td>Lunch</td>
+        </tr>
+        <tr>
+            <th scope="col">Thursday</th>
+            <td colspan="2">Intro To Game Design</td>
+            <td>Lunch</td>
+            <td></td>
+            <td></td>
+            <td colspan="2">English Comp</td>
+        </tr>
+    </table>
 </body>
+
 </html>
