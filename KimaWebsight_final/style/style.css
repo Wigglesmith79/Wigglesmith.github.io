@@ -1,13 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     padding: 20px;
     background-color: #f4f4f4;
+    width: 90%;
+    margin: 0 auto;
 }
 
 h1,
 h2 {
     color: #2c3e50;
+}
+
+header {
+    background-color: #0077cc;
+    color: rgb(255, 255, 255);
+    margin: 10px, 0, 10;
+    padding: 10px;
+    display: flex;
+}
+
+#Logo {
+    font-family: Lobster;
+    color: white;
+    /* padding: 20px; */
+    margin-top: 2%;
+}
+
+#section-head {
+    font-family: Lobster;
+    text-align: center;
+    background-color: rgb(255, 185, 55);
+    border-style: double;
+    border-radius: 1rem;
+    border-color: white;
+    text-decoration: none;
+}
+
+#home-href, #about-href, #visit-href, #event-href {
+    text-decoration: none;
+}
+
+#header-list {
+
+    padding: 50%, 50%, 0;
+
+
+    margin: 1%;
+}
+
+.link {
+    display: inline;
+    padding: 0.5em;
+    margin: 10px;
+    text-decoration: none;
+    /* list-style-image: url("/images/icons/info_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png");
+    list-style-type: square; */
+
+}
+
+
+
+#info-icon {
+    align-content: center;
+}
+
+nav {
+    margin-top: 2%;
+    width: 100%;
+    text-decoration: none;
 }
 
 iframe {
@@ -87,7 +156,7 @@ th {
     color: white;
 }
 
-ul {
+#attraction-list {
     list-style-type: "⭐ ";
     padding-left: 20px;
 }
