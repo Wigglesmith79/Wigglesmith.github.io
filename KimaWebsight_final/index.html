@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kemah-Websight</title>
     <link href="style/style.css" type="text/css" rel="stylesheet" />
+    <style>
+        #empty-block {
+            position: absolute;
+            background-color: white;
+            padding: 5px;
+            width: 250px;
+            height: 3px;
+            margin-top: 76px;
+            margin-left: 20px;
+            border-radius: 3px;
+        }
+    </style>
 </head>
 
 <body>
@@ -13,6 +25,9 @@
         <h1 id="Logo">
             Kemah!
         </h1>
+        <div id="company">
+            <p>Landry's Inc.</p>
+        </div>
         <nav>
             <ul id="header-list">
                 <li class="link">
@@ -20,6 +35,7 @@
                             src="images/icons/home_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="home-icon"
                             height="20px" />
                         <strong>Home</strong>
+                        <div></div>
                     </a>
                 </li>
                 <li class="link">
@@ -39,13 +55,14 @@
                 <li class="link"><img id="event-icon"
                         src="images/icons/today_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="event-icon"
                         height="20px" />
-                    <a id="event-href" href="Events"><strong>Events</strong></a>
+                    <a id="event-href" href="events.html"><strong>Events</strong></a>
                 </li>
             </ul>
         </nav>
         <div id="header-img">
             <img src="images/svg/festival_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="tent-icon" height="60px" />
         </div>
+        <div id="empty-block"></div>
     </header>
     <main>
 
@@ -60,25 +77,46 @@
             </p>
         </section>
         <img src="images/Kemah Boardwalk Bridge 122017.jpg" alt="image of kemah Boardwalk" height="550x" />
-        <article>
+        <section>
             <h2 id="section-head">
                 Upcoming Events
             </h2>
             <p>
                 At Kemah we host all sorts of events throughout the year.
             </p>
-            <div class="event">
-                <h3>Rides</h3>
-            </div>
-            <div class="event">
-                <h3>Art Show</h3>
-            </div>
-        </article>
-        <section>
-            <h2 id="section-head">
-                Parking
-            </h2>
+            <article id="events">
+
+                <div class="event">
+                    <div></div>
+                    <h3>Caricatures</h3>
+                    <p>Have you ever been drawn before?</p>
+                    <img src="images/Illustration7.png" alt="Caricatures banner" height="200px" />
+                </div>
+                <div class="event">
+                    <div></div>
+                    <h3>Job Fair</h3>
+                    <p>Looking for opportunities in Houston?</p>
+                    <img src="images/Screenshot from 2025-04-23 09-57-31.png" alt="Caricatures banner" height="200px" />
+                </div>
+                <div class="event">
+                    <div></div>
+                    <h3>Music Fest</h3>
+                    <p>A night of good music and fun!</p>
+                    <img src="images/Screenshot from 2025-04-23 09-56-54.png" alt="Caricatures banner" height="200px" />
+                </div>
+                <div class="event">
+                    <div></div>
+                    <h3>Memorail Day</h3>
+                    <p>Enjoy unlimited four day admission on rides at the Kemah Boardwalk!
+                    </p>
+                    <img src="images/Screenshot from 2025-04-23 09-58-00.png" alt="Caricatures banner" height="200px" />
+                </div>
+                <a href="events.html"><button style="font-size: 20px;"><strong>Events-></strong></button></a>
+
+            </article>
         </section>
+
+        <!-- <a href="events.html"><button style="font-size: 20px;"><strong>Events</strong></button></a> -->
 
     </main>
     <footer>

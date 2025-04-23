@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+:root {
+
+    --div-transform: scaleY(0);
+    --div-scale: 1.2px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -26,13 +32,22 @@ header {
     margin: 10px, 0, 10;
     padding: 10px;
     display: flex;
+    width: 100%;
 }
 
 #Logo {
     font-family: Lobster;
     color: white;
-    /* padding: 20px; */
+    padding-right: 20px;
     margin-top: 2%;
+    margin-left: 20px;
+}
+
+#company {
+    display: flex;
+    margin-top: 50px;
+    width: 170px;
+
 }
 
 #section-head {
@@ -45,33 +60,91 @@ header {
     text-decoration: none;
 }
 
-#home-href, #about-href, #visit-href, #event-href {
+#home-href,
+#about-href,
+#visit-href,
+#event-href {
     text-decoration: none;
 }
 
 #header-list {
 
     padding: 50%, 50%, 0;
-
-
     margin: 1%;
 }
 
-.link {
-    display: inline;
-    padding: 0.5em;
-    margin: 10px;
-    text-decoration: none;
-    /* list-style-image: url("/images/icons/info_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png");
-    list-style-type: square; */
-
+#events {
+    display: flex;
+    text-align: center;
 }
 
 
+#attraction-list {
+    list-style-type: "⭐ ";
+    padding-left: 20px;
+}
 
 #info-icon {
     align-content: center;
 }
+
+
+.link {
+    display: inline-block;
+    padding: 0.5em;
+    margin: 10px;
+
+    border-bottom: 0px solid orange;
+
+    transition: transform 0.5s;
+
+
+
+}
+
+li a {
+    border-bottom: 0px solid orange;
+    transition: transform 0.3s;
+
+}
+
+li a:hover {
+    border-bottom: 4px solid orange;
+}
+
+
+
+.link:hover {
+    transform: scale(1.2);
+    text-decoration-thickness: 0;
+
+}
+
+li {
+    border-bottom: orange;
+    border-width: 10px;
+    border-bottom-width: 10px;
+    border-color: #ff0000;
+}
+
+a strong {
+    border-bottom: orange;
+    border-width: 10px;
+    border-bottom-width: 10px;
+    border-color: #ff0000;
+}
+
+/* .link a div {
+    background-color: orange;
+    width: 70px;
+    height: 6px;
+    border-radius: 10px;
+    transform: scaleY(1.2);
+} */
+
+/* .link a div:hover {
+    transform: scaleY(1);
+} */
 
 nav {
     margin-top: 2%;
@@ -94,11 +167,30 @@ iframe {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.event {
+    background-color: white;
+    box-shadow: #b1bac0;
+    border-radius: 20px;
+    padding: 20px;
+    width: 350px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.26);
+    margin: 20px;
+
+    transition: transform 0.3s;
+
+}
+
+.event:hover {
+    transform: scale(1.15);
+}
+
 section {
 
     background: #fff;
     padding: 15px;
     border-radius: 10px;
+    margin-top: 10px;
     margin-bottom: 30px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -110,10 +202,10 @@ form {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-label {
+/* label {
     display: block;
     margin: 10px 0 5px;
-}
+} */
 
 input,
 textarea {
@@ -156,7 +248,26 @@ th {
     color: white;
 }
 
-#attraction-list {
-    list-style-type: "⭐ ";
-    padding-left: 20px;
+article a {
+    margin-top: 270px;
+
 }
+
+article a button {
+    background-color: orange;
+    width: 150px;
+}
+
+article a button:hover {
+    background-color: rgb(216, 147, 20);
+}
+
+article .event div {
+    margin-left: 120px;
+    width: 50px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: rgb(219, 219, 219);
+}
+
+section li {}
