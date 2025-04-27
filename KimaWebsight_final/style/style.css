@@ -33,6 +33,7 @@ header {
     padding: 10px;
     display: flex;
     width: 100%;
+    height: 110px;
 }
 
 #Logo {
@@ -45,7 +46,7 @@ header {
 
 #company {
     display: flex;
-    margin-top: 50px;
+    margin-top: 3.2%;
     width: 170px;
 
 }
@@ -71,10 +72,59 @@ header {
 
     padding: 50%, 50%, 0;
     margin: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#aside-list {
+    opacity: 0;
+    width: 120px;
+    height: 100vh;
+    border-radius: 10px;
+    background-color: #007ed8;
+    position: fixed;
+    right: 60px;
+    padding-top: 20px;
+
+    transition: 0.5% all linear;
+}
+
+.check:checked~aside {
+    display: none;
+}
+
+aside {
+    /* margin-left: 70%; */
+    padding: 0 10;
+    position: fixed;
+    top: 80px;
+    right: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 10%;
+    border-radius: 10px;
+    padding-left: 20px;
+    flex-direction: column;
+}
+
+#sidebar-open-icon,
+.check {
+    opacity: 0;
+    position: fixed;
+    top: 30px;
+    right: 210px;
+}
+
+#sidebar-open-icon:hover {
+
+    transform: scale(1.2);
 }
 
 #events {
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
 }
 
@@ -90,6 +140,7 @@ header {
 
 
 .link {
+
     display: inline-block;
     padding: 0.5em;
     margin: 10px;
@@ -101,6 +152,13 @@ header {
 
 
 }
+
+.check {
+    transform: scale(2);
+}
+
+
+
 
 li a {
     border-bottom: 0px solid orange;
@@ -188,10 +246,12 @@ iframe {
 section {
 
     background: #fff;
-    padding: 15px;
+    padding: 50px;
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 30px;
+
+
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -270,4 +330,45 @@ article .event div {
     background-color: rgb(219, 219, 219);
 }
 
-section li {}
+main>img {
+    width: 100%;
+    height: 100%;
+
+}
+
+section li {
+    padding: 15px;
+}
+
+@media (max-width: 600px) {}
+
+@media (max-width: 925px) {
+
+    #header-img {
+        opacity: 0;
+        margin-right: 100px;
+    }
+
+    #header-list {
+        display: none;
+    }
+
+    #sidebar-open-icon,
+    .check {
+
+        width: 42px;
+        height: 30px;
+        position: fixed;
+        top: 30px;
+        right: 100px;
+
+    }
+
+    #aside-list {
+        opacity: 1;
+    }
+
+    #sidebar-open-icon {
+        opacity: 1;
+    }
+}
