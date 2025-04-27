@@ -192,18 +192,6 @@ a strong {
     border-color: #ff0000;
 }
 
-/* .link a div {
-    background-color: orange;
-    width: 70px;
-    height: 6px;
-    border-radius: 10px;
-    transform: scaleY(1.2);
-} */
-
-/* .link a div:hover {
-    transform: scaleY(1);
-} */
-
 nav {
     margin-top: 2%;
     width: 100%;
@@ -233,7 +221,7 @@ iframe {
     width: 350px;
 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.26);
-    margin: 20px;
+    margin: 5%;
 
     transition: transform 0.3s;
 
@@ -246,7 +234,7 @@ iframe {
 section {
 
     background: #fff;
-    padding: 50px;
+    padding: 20px;
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 30px;
@@ -261,11 +249,6 @@ form {
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
-/* label {
-    display: block;
-    margin: 10px 0 5px;
-} */
 
 input,
 textarea {
@@ -340,12 +323,18 @@ section li {
     padding: 15px;
 }
 
-@media (max-width: 600px) {}
+@media (max-width: 550px) {
+    #Logo {
+        transform: scale(0.8);
+    }
+
+    #company {
+        display: none;
+    }
+}
 
 @media (max-width: 925px) {
-    * {
-        transform: scale(0.9);
-    }
+
 
     #header-img {
         opacity: 0;
