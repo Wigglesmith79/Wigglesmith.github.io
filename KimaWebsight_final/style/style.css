@@ -331,6 +331,20 @@ section li {
     #company {
         display: none;
     }
+
+    .event {
+        transform: scale(0.2);
+    }
+
+    #events {
+
+        transform: scale(0.2);
+    }
+
+    article {
+
+        transform: scale(0.2);
+    }
 }
 
 @media (max-width: 925px) {
