@@ -387,28 +387,26 @@ img {
     }
 
     #time-table::-webkit-scrollbar {
-        height: 12px;
-        width: 12px;
-        color: #ff0000;
-        background-color: #ff0000;
+        width: 5px;
+        border-radius: 6px;
+        color: #696969;
+        background-color: #6b6b6b;
     }
 
     #time-table::-webkit-scrollbar-track {
-        background: red;
         border-radius: 6px;
     }
 
     #time-table::-webkit-scrollbar-thumb {
-        background-color: red;
+
         border-radius: 6px;
     }
 
     #time-table::-webkit-scrollbar-thumb:hover {
-        background-color: red;
+        background-color: rgb(99, 99, 99);
     }
 
     table {
-        /* overflow-y: scroll; */
         white-space: nowrap;
 
         transform: rotate(90deg);
