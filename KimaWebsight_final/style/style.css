@@ -275,6 +275,8 @@ button:hover {
 }
 
 table {
+   
+    align-content: center;
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
@@ -292,11 +294,6 @@ th {
     background-color: #3498db;
     color: white;
 }
-
-/* article a {
-    margin-top: 270px;
-
-} */
 
 #event-button {
     background-color: orange;
@@ -376,5 +373,10 @@ main section ul li {
 
     #sidebar-open-icon {
         opacity: 1;
+    }
+
+    table {
+        transform: rotate(-0.25turn);
+        transform: scale(0.7);
     }
 }
