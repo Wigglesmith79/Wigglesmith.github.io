@@ -389,7 +389,7 @@ img {
     #time-table::-webkit-scrollbar {
         width: 12px;
         border-radius: 6px;
-        color: #696969;
+        /* color: #696969; */
         /* background-color: #6b6b6b; */
     }
 
