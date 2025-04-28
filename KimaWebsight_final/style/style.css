@@ -140,6 +140,7 @@ aside {
 }
 
 
+
 .link {
 
     display: inline-block;
@@ -292,14 +293,15 @@ th {
     color: white;
 }
 
-article a {
+/* article a {
     margin-top: 270px;
 
-}
+} */
 
-article a button {
+#event-button {
     background-color: orange;
     width: 150px;
+
 }
 
 article a button:hover {
@@ -362,7 +364,7 @@ main section ul li {
 
         width: 42px;
         height: 30px;
-        position: fixed;
+        position: absolute;
         top: 30px;
         right: 100px;
 
