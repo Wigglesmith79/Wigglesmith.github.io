@@ -387,10 +387,10 @@ img {
     }
 
     #time-table::-webkit-scrollbar {
-        width: 5px;
+        width: 12px;
         border-radius: 6px;
         color: #696969;
-        background-color: #6b6b6b;
+        /* background-color: #6b6b6b; */
     }
 
     #time-table::-webkit-scrollbar-track {
@@ -403,7 +403,7 @@ img {
     }
 
     #time-table::-webkit-scrollbar-thumb:hover {
-        background-color: rgb(99, 99, 99);
+        background-color: rgb(184, 184, 184);
     }
 
     table {
