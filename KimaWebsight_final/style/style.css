@@ -328,6 +328,10 @@ main section ul li {
     list-style-position: inside;
 }
 
+img {
+    border-radius: 10px;
+}
+
 @media (max-width: 550px) {
     #Logo {
         transform: scale(0.8);
