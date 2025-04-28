@@ -332,18 +332,19 @@ section li {
         display: none;
     }
 
-    .event {
+    /* .event {
         transform: scale(0.2);
-    }
+    } */
 
+    /* 
     #events {
 
         transform: scale(0.2);
-    }
+    } */
 
     article {
 
-        transform: scale(0.2);
+        transform: scale(0.8);
     }
 }
 
